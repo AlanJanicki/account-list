@@ -1,0 +1,1615 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountList/> - layout displays "No accounts to display" when accountList is empty 1`] = `
+<DocumentFragment>
+  .c1 {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+}
+
+.c2 {
+  height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.c3 {
+  padding: 1rem;
+  display: grid;
+}
+
+.c0 {
+  padding-top: 2rem;
+}
+
+.c4 {
+  text-align: center;
+}
+
+@media (min-width:576px) {
+  .c2 {
+    height: 3.5rem;
+  }
+}
+
+@media (min-width:576px) {
+  .c2 h1 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c2 h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 {
+    font-size: 1.1rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1>
+          Account list
+        </h1>
+      </div>
+      <div
+        class="c3"
+      >
+        <p
+          class="c4"
+        >
+          No accounts to display
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<AccountList/> - layout displays fallback '-' when account has empty values 1`] = `
+<DocumentFragment>
+  .c1 {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+}
+
+.c2 {
+  height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.c3 {
+  padding: 1rem;
+  display: grid;
+}
+
+.c4 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  overflow: scroll;
+}
+
+.c4 span {
+  padding: 1rem 0.3rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.c4 span:nth-child(-n + 3) {
+  border-bottom: 1px solid #000;
+}
+
+.c4 span:nth-last-child(-n + 3) {
+  border-bottom: none;
+}
+
+.c0 {
+  padding-top: 2rem;
+}
+
+@media (min-width:576px) {
+  .c2 {
+    height: 3.5rem;
+  }
+}
+
+@media (min-width:576px) {
+  .c2 h1 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c2 h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 span {
+    padding: 1.2rem 0.3rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 span:nth-child(-n + 3) > * {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 span:nth-child(-n + 3) > * {
+    font-size: 1.3rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1>
+          Account list
+        </h1>
+      </div>
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Name
+            </strong>
+          </span>
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Profit & Loss
+            </strong>
+          </span>
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Account Type
+            </strong>
+          </span>
+          <span
+            data-testid="cell"
+          >
+            -
+          </span>
+          <span
+            data-testid="cell"
+          >
+            -
+          </span>
+          <span
+            data-testid="cell"
+          >
+            -
+          </span>
+          <span
+            data-testid="cell"
+          >
+            New Spread bet
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ -679
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet - demo
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 16.211
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD - demo
+          </span>
+          <span
+            data-testid="cell"
+          >
+            € 16679
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Stockbroking - DEMO
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 200045
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Share dealing account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Stockbroking
+          </span>
+          <span
+            data-testid="cell"
+          >
+            € 200045
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Share dealing account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            My CFD
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ -10
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Forex Acccount
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 10
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Forex account
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<AccountList/> - layout displays fallback '-' when account has null values 1`] = `
+<DocumentFragment>
+  .c1 {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+}
+
+.c2 {
+  height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.c3 {
+  padding: 1rem;
+  display: grid;
+}
+
+.c4 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  overflow: scroll;
+}
+
+.c4 span {
+  padding: 1rem 0.3rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.c4 span:nth-child(-n + 3) {
+  border-bottom: 1px solid #000;
+}
+
+.c4 span:nth-last-child(-n + 3) {
+  border-bottom: none;
+}
+
+.c0 {
+  padding-top: 2rem;
+}
+
+@media (min-width:576px) {
+  .c2 {
+    height: 3.5rem;
+  }
+}
+
+@media (min-width:576px) {
+  .c2 h1 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c2 h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 span {
+    padding: 1.2rem 0.3rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 span:nth-child(-n + 3) > * {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 span:nth-child(-n + 3) > * {
+    font-size: 1.3rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1>
+          Account list
+        </h1>
+      </div>
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Name
+            </strong>
+          </span>
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Profit & Loss
+            </strong>
+          </span>
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Account Type
+            </strong>
+          </span>
+          <span
+            data-testid="cell"
+          >
+            -
+          </span>
+          <span
+            data-testid="cell"
+          >
+            -
+          </span>
+          <span
+            data-testid="cell"
+          >
+            -
+          </span>
+          <span
+            data-testid="cell"
+          >
+            New Spread bet
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ -679
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet - demo
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 16.211
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD - demo
+          </span>
+          <span
+            data-testid="cell"
+          >
+            € 16679
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Stockbroking - DEMO
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 200045
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Share dealing account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Stockbroking
+          </span>
+          <span
+            data-testid="cell"
+          >
+            € 200045
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Share dealing account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            My CFD
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ -10
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Forex Acccount
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 10
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Forex account
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<AccountList/> - layout displays fallback '-' when account has undefined values 1`] = `
+<DocumentFragment>
+  .c1 {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+}
+
+.c2 {
+  height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.c3 {
+  padding: 1rem;
+  display: grid;
+}
+
+.c4 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  overflow: scroll;
+}
+
+.c4 span {
+  padding: 1rem 0.3rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.c4 span:nth-child(-n + 3) {
+  border-bottom: 1px solid #000;
+}
+
+.c4 span:nth-last-child(-n + 3) {
+  border-bottom: none;
+}
+
+.c0 {
+  padding-top: 2rem;
+}
+
+@media (min-width:576px) {
+  .c2 {
+    height: 3.5rem;
+  }
+}
+
+@media (min-width:576px) {
+  .c2 h1 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c2 h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 span {
+    padding: 1.2rem 0.3rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 span:nth-child(-n + 3) > * {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 span:nth-child(-n + 3) > * {
+    font-size: 1.3rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1>
+          Account list
+        </h1>
+      </div>
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Name
+            </strong>
+          </span>
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Profit & Loss
+            </strong>
+          </span>
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Account Type
+            </strong>
+          </span>
+          <span
+            data-testid="cell"
+          >
+            -
+          </span>
+          <span
+            data-testid="cell"
+          >
+            -
+          </span>
+          <span
+            data-testid="cell"
+          >
+            -
+          </span>
+          <span
+            data-testid="cell"
+          >
+            New Spread bet
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ -679
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet - demo
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 16.211
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD - demo
+          </span>
+          <span
+            data-testid="cell"
+          >
+            € 16679
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Stockbroking - DEMO
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 200045
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Share dealing account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Stockbroking
+          </span>
+          <span
+            data-testid="cell"
+          >
+            € 200045
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Share dealing account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            My CFD
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ -10
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Forex Acccount
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 10
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Forex account
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<AccountList/> - layout displays fallback '-' when profitLoss is 0 1`] = `
+<DocumentFragment>
+  .c1 {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+}
+
+.c2 {
+  height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.c3 {
+  padding: 1rem;
+  display: grid;
+}
+
+.c4 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  overflow: scroll;
+}
+
+.c4 span {
+  padding: 1rem 0.3rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.c4 span:nth-child(-n + 3) {
+  border-bottom: 1px solid #000;
+}
+
+.c4 span:nth-last-child(-n + 3) {
+  border-bottom: none;
+}
+
+.c0 {
+  padding-top: 2rem;
+}
+
+@media (min-width:576px) {
+  .c2 {
+    height: 3.5rem;
+  }
+}
+
+@media (min-width:576px) {
+  .c2 h1 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c2 h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 span {
+    padding: 1.2rem 0.3rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 span:nth-child(-n + 3) > * {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 span:nth-child(-n + 3) > * {
+    font-size: 1.3rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1>
+          Account list
+        </h1>
+      </div>
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Name
+            </strong>
+          </span>
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Profit & Loss
+            </strong>
+          </span>
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Account Type
+            </strong>
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 0
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            New Spread bet
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ -679
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet - demo
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 16.211
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD - demo
+          </span>
+          <span
+            data-testid="cell"
+          >
+            € 16679
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Stockbroking - DEMO
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 200045
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Share dealing account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Stockbroking
+          </span>
+          <span
+            data-testid="cell"
+          >
+            € 200045
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Share dealing account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            My CFD
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ -10
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Forex Acccount
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 10
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Forex account
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<AccountList/> - layout displays spinner during api call 1`] = `
+<DocumentFragment>
+  .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c2 {
+  width: 50px;
+  display: block;
+  aspect-ratio: 1;
+  border: 3px solid #0f7bff;
+  border-radius: 50%;
+  border-top-color: #fff;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out infinite;
+}
+
+.c0 {
+  padding-top: 2rem;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <p
+        role="status"
+      >
+        <span
+          class="c2"
+          width="50"
+        />
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<AccountList/> - layout hides spinner on api call finish 1`] = `
+<DocumentFragment>
+  .c1 {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+}
+
+.c2 {
+  height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.c3 {
+  padding: 1rem;
+  display: grid;
+}
+
+.c4 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  overflow: scroll;
+}
+
+.c4 span {
+  padding: 1rem 0.3rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.c4 span:nth-child(-n + 3) {
+  border-bottom: 1px solid #000;
+}
+
+.c4 span:nth-last-child(-n + 3) {
+  border-bottom: none;
+}
+
+.c0 {
+  padding-top: 2rem;
+}
+
+@media (min-width:576px) {
+  .c2 {
+    height: 3.5rem;
+  }
+}
+
+@media (min-width:576px) {
+  .c2 h1 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c2 h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 span {
+    padding: 1.2rem 0.3rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 span:nth-child(-n + 3) > * {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 span:nth-child(-n + 3) > * {
+    font-size: 1.3rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1>
+          Account list
+        </h1>
+      </div>
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Name
+            </strong>
+          </span>
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Profit & Loss
+            </strong>
+          </span>
+          <span
+            data-testid="header"
+          >
+            <strong>
+              Account Type
+            </strong>
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 0.23
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            New Spread bet
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ -679
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet - demo
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 16.211
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Spread bet account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD - demo
+          </span>
+          <span
+            data-testid="cell"
+          >
+            € 16679
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Stockbroking - DEMO
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 200045
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Share dealing account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Stockbroking
+          </span>
+          <span
+            data-testid="cell"
+          >
+            € 200045
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Share dealing account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            My CFD
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ -10
+          </span>
+          <span
+            data-testid="cell"
+          >
+            CFD account
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Forex Acccount
+          </span>
+          <span
+            data-testid="cell"
+          >
+            $ 10
+          </span>
+          <span
+            data-testid="cell"
+          >
+            Forex account
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<AccountList/> - server error displays error message on accountList fetch failure 1`] = `
+<DocumentFragment>
+  .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c2 {
+  color: #dd3546;
+}
+
+.c3 {
+  margin: 2rem auto 0 auto;
+  padding: 0.5rem;
+  width: 50%;
+  background-color: #0f7bff;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+  border: 1px solid transparent;
+  color: #fff;
+  font-weight: 400;
+}
+
+.c0 {
+  padding-top: 2rem;
+}
+
+@media (min-width:992px) {
+  .c2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c3 {
+    font-size: 1.2rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div>
+        <span
+          class="c2"
+        >
+          Something went wrong fetching account list
+        </span>
+        <button
+          class="c3"
+        >
+          Try again
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<AccountList/> - server error displays spinner during refetch api call 1`] = `
+<DocumentFragment>
+  .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c2 {
+  width: 50px;
+  display: block;
+  aspect-ratio: 1;
+  border: 3px solid #0f7bff;
+  border-radius: 50%;
+  border-top-color: #fff;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out infinite;
+}
+
+.c0 {
+  padding-top: 2rem;
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <p
+        role="status"
+      >
+        <span
+          class="c2"
+          width="50"
+        />
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

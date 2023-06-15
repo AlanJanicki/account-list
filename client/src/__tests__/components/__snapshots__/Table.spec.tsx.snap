@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table/> matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  overflow: scroll;
+}
+
+.c0 span {
+  padding: 1rem 0.3rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.c0 span:nth-child(-n + 3) {
+  border-bottom: 1px solid #000;
+}
+
+.c0 span:nth-last-child(-n + 3) {
+  border-bottom: none;
+}
+
+@media (min-width:768px) {
+  .c0 span {
+    padding: 1.2rem 0.3rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 span:nth-child(-n + 3) > * {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 span:nth-child(-n + 3) > * {
+    font-size: 1.3rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <span
+      data-testid="header"
+    >
+      <strong>
+        name
+      </strong>
+    </span>
+    <span
+      data-testid="header"
+    >
+      <strong>
+        profitLoss
+      </strong>
+    </span>
+    <span
+      data-testid="header"
+    >
+      <strong>
+        accountType
+      </strong>
+    </span>
+    <span
+      data-testid="cell"
+    >
+      Spread bet
+    </span>
+    <span
+      data-testid="cell"
+    >
+      0.23
+    </span>
+    <span
+      data-testid="cell"
+    >
+      IGSB
+    </span>
+    <span
+      data-testid="cell"
+    >
+      New Spread bet
+    </span>
+    <span
+      data-testid="cell"
+    >
+      -679
+    </span>
+    <span
+      data-testid="cell"
+    >
+      IGSB
+    </span>
+    <span
+      data-testid="cell"
+    >
+      Spread bet - demo
+    </span>
+    <span
+      data-testid="cell"
+    >
+      16.211
+    </span>
+    <span
+      data-testid="cell"
+    >
+      IGSB
+    </span>
+  </div>
+</DocumentFragment>
+`;

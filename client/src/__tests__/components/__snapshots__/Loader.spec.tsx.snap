@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loader/> matches snapshot - isError 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 {
+  color: #dd3546;
+}
+
+.c2 {
+  margin: 2rem auto 0 auto;
+  padding: 0.5rem;
+  width: 50%;
+  background-color: #0f7bff;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+  border: 1px solid transparent;
+  color: #fff;
+  font-weight: 400;
+}
+
+@media (min-width:992px) {
+  .c1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c2 {
+    font-size: 1.2rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div>
+      <span
+        class="c1"
+      >
+        Something went wrong
+      </span>
+      <button
+        class="c2"
+      >
+        Try again
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Loader/> matches snapshot - loading 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 {
+  width: 50px;
+  display: block;
+  aspect-ratio: 1;
+  border: 3px solid #0f7bff;
+  border-radius: 50%;
+  border-top-color: #fff;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out infinite;
+}
+
+<div
+    class="c0"
+  >
+    <p
+      role="status"
+    >
+      <span
+        class="c1"
+        width="50"
+      />
+    </p>
+  </div>
+</DocumentFragment>
+`;

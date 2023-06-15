@@ -1,0 +1,26 @@
+name: Tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-coverage-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Install dependencies
+        run: npm install ci
+        working-directory: ./client
+      - name: Run tests
+        run: npm run test:ci
+        working-directory: ./client
+      - name: Generating coverage badges
+        uses: jpb06/jest-badges-action@latest
+        with:
+          coverage-summary-path: ./client/coverage/coverage-summary.json

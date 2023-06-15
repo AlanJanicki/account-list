@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spinner/> matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 50px;
+  display: block;
+  aspect-ratio: 1;
+  border: 3px solid #0f7bff;
+  border-radius: 50%;
+  border-top-color: #fff;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out infinite;
+}
+
+<p
+    role="status"
+  >
+    <span
+      class="c0"
+      width="50"
+    />
+  </p>
+</DocumentFragment>
+`;
