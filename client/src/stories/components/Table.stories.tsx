@@ -4,11 +4,11 @@ import { getCellsWithMockedData } from '../../mocks/accountList';
 export default {
   component: Table,
   tags: ['autodocs'],
-  title: 'Table',
+  title: 'Table'
 };
 
 export const Default = {
   args: {
-    cells: getCellsWithMockedData(),
-  },
+    cells: getCellsWithMockedData()
+  }
 };

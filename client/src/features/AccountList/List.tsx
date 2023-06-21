@@ -19,7 +19,8 @@ export const List = () => {
         button={{ onClick, text: 'Try again' }}
         error='Something went wrong fetching account list'
         isError={isError}
-        isLoading={isLoading}>
+        isLoading={isLoading}
+      >
         <Card header='Account list'>
           {cells.length > HEADERS.length ? (
             <Table cells={cells} />

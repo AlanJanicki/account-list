@@ -18,27 +18,27 @@ const getAccountListToDisplay = (accountList: typeof accounts) =>
   accountList.map(({ accountType, currency, name, profitLoss }) => ({
     accountType: accountTypes.find(({ id }) => id === accountType)?.title ?? '',
     name,
-    profitLoss: !(`${profitLoss ?? ''}` || undefined) ? '' : `${currency} ${profitLoss}`,
+    profitLoss: !(`${profitLoss ?? ''}` || undefined) ? '' : `${currency} ${profitLoss}`
   }));
 
 export const getDataToDisplay = (accountList = accounts) =>
   transformToArrayOfObjectsWithGivenKeys({
     data: getAccountListToDisplay(accountList),
     keys: Object.values(HEADERS).map(({ key }) => key),
-    valueFallback: '-',
+    valueFallback: '-'
   }).map(({ value }) => value);
 
 const getAccountsWithInvalidData = (
   keys: string[],
-  invalidValue?: null | string | number,
+  invalidValue?: null | string | number
 ): InvalidData => [
   {
     ...Object.entries(accounts[0]).reduce((acc, [key, value]) => {
       const changeKey = keys.some((property) => property === key);
       return { ...acc, [key]: changeKey ? invalidValue : value };
-    }, {}),
+    }, {})
   },
-  ...accounts.slice(1),
+  ...accounts.slice(1)
 ];
 
 const testDisplayingCellsWithInvalidData = async (invalidData: InvalidData) => {
@@ -50,7 +50,7 @@ const testDisplayingCellsWithInvalidData = async (invalidData: InvalidData) => {
 
 const mockServerResponse = (payload: InvalidData) =>
   server.use(
-    rest.get(restApiRoutes.accounts, (...args) => responseOKWithPayload(...args, payload)),
+    rest.get(restApiRoutes.accounts, (...args) => responseOKWithPayload(...args, payload))
   );
 
 describe('<AccountList/> - layout', () => {
@@ -92,14 +92,14 @@ describe('<AccountList/> - layout', () => {
   it.each(
     [undefined, null, ''].map((value) => ({
       name: typeof value === 'string' ? 'empty' : value,
-      value,
-    })),
+      value
+    }))
   )(`displays fallback '-' when account has $name values`, async ({ value }) => {
     await testDisplayingCellsWithInvalidData(
       getAccountsWithInvalidData(
         Object.values(HEADERS).map(({ key }) => key),
-        value,
-      ),
+        value
+      )
     );
   });
 

@@ -11,10 +11,10 @@ export default {
   component: AccountList,
   parameters: {
     msw: {
-      handlers,
-    },
+      handlers
+    }
   },
-  title: 'AccountList',
+  title: 'AccountList'
 };
 
 const Template = {
@@ -24,8 +24,8 @@ const Template = {
         <Story />
       </Provider>
     ),
-    mswDecorator,
-  ],
+    mswDecorator
+  ]
 } as Meta;
 
 export const Default = { ...Template };
@@ -33,6 +33,6 @@ export const Default = { ...Template };
 export const HttpError = { ...Template };
 HttpError.parameters = {
   msw: {
-    handlers: [httpErrors.accounts],
-  },
+    handlers: [httpErrors.accounts]
+  }
 };
