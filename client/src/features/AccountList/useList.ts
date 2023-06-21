@@ -7,7 +7,7 @@ import { Account } from '../../models';
 import { transformToArrayOfObjectsWithGivenKeys } from '../../utils';
 
 export const useList = (headers: Cell[]) => {
-  const { data, isError, isFetching, refetch } = useGetAccountListWithTypeVerboseQuery();
+  const { data, isError, isLoading, refetch } = useGetAccountListWithTypeVerboseQuery();
 
   const cells = useMemo(() => getCells(data ?? []), [data]);
 
@@ -29,7 +29,7 @@ export const useList = (headers: Cell[]) => {
   return {
     cells,
     isError,
-    isFetching,
+    isLoading,
     refetch
   };
 };

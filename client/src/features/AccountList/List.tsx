@@ -11,7 +11,7 @@ export const HEADERS = [
 ];
 
 export const List = () => {
-  const { cells, isError, isFetching: isLoading, refetch: onClick } = useList(HEADERS);
+  const { cells, isError, isLoading, refetch: onClick } = useList(HEADERS);
 
   return (
     <Styled.Wrapper>
